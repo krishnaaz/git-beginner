@@ -10,4 +10,9 @@ Cloning a git repository
 		* git clone https://github.com/id/git-beginner.git
 		This uses the https protocol
 
-=============================================
+===============================================================================
+
+Pulling a repository
+	git pull origin <<remote_branch>>
+
+===============================================================================
