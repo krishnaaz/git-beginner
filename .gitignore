@@ -2,3 +2,5 @@ classes
 gwt-unitCache
 .settings
 .project
+gwt-beginner/war/WEB-INF/deploy/
+gwt-beginner/war/client/
