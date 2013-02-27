@@ -1,9 +1,13 @@
 Cloning a git repository
 	1. git clone <<git_remote_url>>
 	Example:
-		* git clone git://abc.xyz.lmn/proj
+		* git clone git://abc.xyz.lmn/proj.git
 		This uses the git protocol
-		* git clone ssh://atvts346.athtem.eei.ericsson.se/proj/nss/temp/xsudbir/tempRepo
+		* git clone ssh://atvts346.athtem.eei.ericsson.se/proj/nss/temp/xsudbir/tempRepo.git
 		This uses ssh protocol. If the remote server is password protected it will ask for password
 		* git clone file:////192.168.32.64/some_path/git_folder
 		This uses the file protocol. We need 4 trailing slashes. 2 slashes are for the protocol and 2 are to mention that search the git folder from root path. Something like absolute path
+		* git clone https://github.com/id/git-beginner.git
+		This uses the https protocol
+
+=============================================
